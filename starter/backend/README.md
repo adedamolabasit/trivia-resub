@@ -83,9 +83,13 @@ This README is missing documentation of your endpoints. Below is an example for 
 
 Endpoints
 GET '/api/v1.0/categories'
-GET ...
-POST ...
-DELETE ...
+<!-- GET '/api/v1.0/vcategories' -->
+<!-- GET '/api/v1.0/questions' -->
+<!-- GET .../api/v1.0/categories/<int:cat_id>/questions -->
+<!-- POST ...'/api/v1.0/questions' -->
+<!-- POST ...'/api/v1.0/questions?searchTerm' --?
+<!-- POST ...'/api/v1.0/quizzes' -->
+<!-- DELETE ...'/api/v1.0/questions/<int:qus_id>' -->
 
 GET '/api/v1.0/categories'
 - Fetches a dictionary of categories in which the keys are the ids and the value is the corresponding string of the category
