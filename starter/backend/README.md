@@ -82,14 +82,14 @@ One note before you delve into your tasks: for each endpoint, you are expected t
 This README is missing documentation of your endpoints. Below is an example for your endpoint to get all categories. Please use it as a reference for creating your documentation and resubmit your code. 
 
 Endpoints
-GET '/api/v1.0/categories'
-<!-- GET '/api/v1.0/vcategories' -->
-<!-- GET '/api/v1.0/questions' -->
-<!-- GET .../api/v1.0/categories/<int:cat_id>/questions -->
-<!-- POST ...'/api/v1.0/questions' -->
-<!-- POST ...'/api/v1.0/questions?searchTerm' --?
-<!-- POST ...'/api/v1.0/quizzes' -->
-<!-- DELETE ...'/api/v1.0/questions/<int:qus_id>' -->
+GET '/categories'
+<!-- GET '/categories' -->
+<!-- GET '/questions' -->
+<!-- GET .../categories/<int:cat_id> -->
+<!-- POST ...'/questions' -->
+<!-- POST ...'/questions?searchTerm' --?
+<!-- POST ...'/quizzes' -->
+<!-- DELETE ...'/questions/<int:qus_id>' -->
 
 GET '/api/v1.0/categories'
 - Fetches a dictionary of categories in which the keys are the ids and the value is the corresponding string of the category
